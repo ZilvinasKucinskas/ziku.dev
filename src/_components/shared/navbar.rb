@@ -1,5 +1,5 @@
 class Shared::Navbar < Bridgetown::Component
-  def initialize(metadata:, resource:)
-    @metadata, @resource = metadata, resource
+  def initialize(metadata:, resource:, links:)
+    @metadata, @resource, @links = metadata, resource, links
   end
 end

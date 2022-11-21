@@ -4,7 +4,7 @@
     <%= render "head", metadata: site.metadata, title: resource.data.title %>
   </head>
   <body class="<%= resource.data.layout %> <%= resource.data.page_class %>">
-    <%= render Shared::Navbar.new(metadata: site.metadata, resource: resource) %>
+    <%= render Shared::Navbar.new(metadata: site.metadata, resource: resource, links: site.data.navigation.navbar) %>
 
     <main>
       <%= yield %>

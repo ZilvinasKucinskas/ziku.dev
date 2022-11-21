@@ -1,0 +1,11 @@
+navbar:
+  - title: Home
+    url: /
+  - title: About
+    url: /about/
+  - title: Speaking
+    url: /speaking/
+  - title: Projects
+    url: /projects/
+  - title: Posts
+    url: /posts/

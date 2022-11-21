@@ -2,6 +2,7 @@ import "index.css"
 import "syntax-highlighting.css"
 import * as Turbo from "@hotwired/turbo"
 import { Application } from "@hotwired/stimulus"
+import 'flowbite';
 
 // Uncomment the line below to add transition animations when Turbo navigates.
 // We recommend adding <meta name="turbo-cache-control" content="no-preview" />
