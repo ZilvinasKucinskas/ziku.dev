@@ -1,0 +1,9 @@
+parallel: true
+format: progress
+
+ignore:
+  - ".bridgetown-build/**/*"
+  - ".bridgetown-cache/**/*"
+  - "node_modules/**/*"
+  - ".github/**/*"
+  - ".vscode/**/*"

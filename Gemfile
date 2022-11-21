@@ -34,4 +34,6 @@ gem "puma", "~> 5.6"
 
 group :development do
   gem "pry"
+  gem "solargraph"
+  gem "standard"
 end
