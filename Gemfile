@@ -37,3 +37,7 @@ group :development do
   gem "solargraph"
   gem "standard"
 end
+
+group :bridgetown_plugins do
+  gem "bridgetown-svg-inliner"
+end
