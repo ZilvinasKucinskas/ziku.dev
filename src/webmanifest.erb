@@ -1,0 +1,17 @@
+---
+permalink: /site.webmanifest
+layout: none
+---
+{
+  "name": "<%= site.metadata.title %>",
+  "short_name": "<%= site.metadata.author.name %>",
+  "description": "<%= site.metadata.description %>",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "icons": [
+    { "src": "<%= absolute_url "/assets/favicons/android-chrome-192x192.png" %>", "type": "image/png", "sizes": "192x192" },
+    { "src": "<%= absolute_url "/assets/favicons/android-chrome-384x384.png" %>", "type": "image/png", "sizes": "384x384" }
+  ]
+}
