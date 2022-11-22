@@ -9,3 +9,5 @@ navbar:
     url: /projects/
   - title: Posts
     url: /posts/
+  - title: Uses
+    url: /uses/
