@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: markdown
 title: Uses
 description: The gear I use
 permalink: /uses/

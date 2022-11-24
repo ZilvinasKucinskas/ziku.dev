@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<%= render Ui::Container.new(as: :article, classes: "space-y-8") do %>
+  <%= render Ui::Heading.new.with_content(resource.data.title) %>
+  <%= render Ui::Divider.new(variant: :colorful) %>
+  <%= render Ui::ContentBlock.new.with_content(content) %>
+  <%= render Ui::Divider.new(variant: :colorful) %>
+  <%= render Ui::Text.new(small: true) do %>
+    <%= render Ui::Secondary.new.with_content(
+      "Last updated: #{Date.parse(resource.data.last_modified_at).iso8601}"
+    ) %>
+  <% end %>
+<% end %>
