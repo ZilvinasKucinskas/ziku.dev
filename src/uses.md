@@ -18,7 +18,7 @@ last_modified_at: "2022-11-24 11:38:18.421734 UTC"
 ## Office
 
 - [Steelcase Leap Chair](https://www.steelcase.com/products/office-chairs/leap/)
-- [Desktornic Home One Ergonomic Standing Desk](https://desktronic.de/products/hohenverstellbarer-schreibtisch?variant=41539934290109)
+- [Desktronic Home One Ergonomic Standing Desk](https://desktronic.de/products/hohenverstellbarer-schreibtisch?variant=41539934290109)
 
 ## Audio + Video
 
