@@ -1,17 +1,24 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-
-layout: default
+layout: home
+title: Zilvinas Kucinskas — Ruby on Rails Software Engineer
+no_index: false
+date: "2022-11-22 17:54:43.643715 UTC"
+last_modified_at: "2022-11-22 17:54:43.643715 UTC"
 ---
 
-# Welcome to your new Bridgetown website.
+# Zilvinas Kucinskas
 
-You can learn more about how to build and deploy your new website by reading the  [Bridgetown documentation](https://www.bridgetownrb.com/docs).
+Full Stack Ruby on Rails Software Engineer and entrepreneur. This is my personal website where I document my journey as a full stack developer and publish tutorials for myself and others on things I've learned along the way.
 
-You can choose a [theme](https://github.com/topics/bridgetown-theme) or add some [plugins](https://www.bridgetownrb.com/plugins/) to get started quickly.
+[Learn More About Me <span aria-hidden="true">&rarr;</span>](/about/)
 
-Be sure to check out the [Bridgetown Cards](https://bridgetown.cards) community site for helpful tips & tricks.
+## Recent Posts
 
-If you run into any issues or have additional questions, please join us in our [Discord chat](https://discord.gg/4E6hktQGz4) or in [GitHub discussions](https://github.com/bridgetownrb/bridgetown/discussions).
+[View All Posts <span aria-hidden="true">&rarr;</span>](/posts/)
 
-_Have fun and **good luck**!_
+## Resources
+
+- Some of my [projects are documented here.](/projects/)
+- My [Uses page](/uses/) has more information on the gear I am using daily.
+
+[View the Sitemap <span aria-hidden="true">&rarr;</span>](/posts/)
