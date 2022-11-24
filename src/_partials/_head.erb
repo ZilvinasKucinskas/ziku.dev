@@ -6,8 +6,8 @@
 <meta name="description" content="<%= metadata.description %>" />
 <%= render "scripts/dark_mode" %>
 
-<link rel="stylesheet" href="<%= webpack_path :css %>" />
-<script src="<%= webpack_path :js %>" defer></script>
+<link rel="stylesheet" href="<%= webpack_path :css %>" data-turbo-track="reload" />
+<script src="<%= webpack_path :js %>" defer data-turbo-track="reload"></script>
 <%= live_reload_dev_js %>
 
 <%= render "shared/favicons" %>
