@@ -1,3 +1,44 @@
-<%= render Ui::Container.new(as: :footer) do %>
-  <div>I am something</div>
-<% end %>
+<footer class="p-4 sm:p-6 border-t border-slate-900/10 dark:border-slate-300/10">
+  <div class="md:flex md:justify-between">
+    <div class="mb-6 md:mb-0">
+      <%= render Shared::Logo.new %>
+    </div>
+
+    <div class="grid grid-cols-2 sm:grid-cols-3 gap-8 sm:gap-6">
+      <div>
+        <h2 class="mb-6 text-sm font-semibold uppercase text-gray-900 dark:text-white">Resources</h2>
+        <ul class="text-gray-600 dark:text-gray-400">
+          <li class="mb-4"><a href="#">Resource 1</a></li>
+          <li><a href="#">Resource 2</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h2 class="mb-6 text-sm font-semibold uppercase text-gray-900 dark:text-white">Follow me</h2>
+        <ul class="text-gray-600 dark:text-gray-400">
+          <li class="mb-4"><a href="#">Github</a></li>
+          <li><a href="#">LinkedIn</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h2 class="mb-6 text-sm font-semibold uppercase text-gray-900 dark:text-white">Resources</h2>
+        <ul class="text-gray-600 dark:text-gray-400">
+          <li class="mb-4"><a href="#">Resource 1</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <%# <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" /> %>
+  <%= render Ui::Divider.new %>
+
+  <p class="text-xs text-center text-gray-500 dark:text-gray-400">
+    &copy; 2022 Zilvinas Kucinskas. All rights reserved. Except as otherwise noted, the content
+    of this page is licensed under the
+    <%= render Ui::Link.new(href: "https://creativecommons.org/licenses/by/4.0/", external: true).with_content("Creative Commons Attribution 4.0 License") %>
+    , and code samples are licensed under the
+    MIT License.
+  </p>
+</footer>
