@@ -3,6 +3,7 @@ import "syntax-highlighting.css"
 import * as Turbo from "@hotwired/turbo"
 import { Application } from "@hotwired/stimulus"
 import 'flowbite';
+import { inject } from "@vercel/analytics";
 
 // Uncomment the line below to add transition animations when Turbo navigates.
 // We recommend adding <meta name="turbo-cache-control" content="no-preview" />
@@ -29,3 +30,5 @@ Object.entries(controllers).forEach(([filename, controller]) => {
     Stimulus.register(identifier, controller.default)
   }
 })
+
+inject();
