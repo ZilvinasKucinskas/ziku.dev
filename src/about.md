@@ -1,10 +1,7 @@
 ---
-layout: page
+layout: markdown
 title: About
+last_modified_at: 2022-11-27 18:16:21.107098 UTC
 ---
 
-This is the basic Bridgetown site template. You can find out more info about customizing your Bridgetown site, as well as basic Bridgetown usage documentation at [bridgetownrb.com](https://bridgetownrb.com/)
-
-You can find the source code for Bridgetown at GitHub:
-[bridgetownrb](https://github.com/bridgetownrb) /
-[bridgetown](https://github.com/bridgetownrb/bridgetown)
+More info coming soon.
