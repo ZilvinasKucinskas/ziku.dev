@@ -2,7 +2,7 @@ import "index.css"
 import "syntax-highlighting.css"
 import * as Turbo from "@hotwired/turbo"
 import { Application } from "@hotwired/stimulus"
-import 'flowbite';
+import { Toggle } from "tailwindcss-stimulus-components"
 import { inject } from "@vercel/analytics";
 
 // Uncomment the line below to add transition animations when Turbo navigates.
@@ -14,8 +14,6 @@ import { inject } from "@vercel/analytics";
 
 // Import all JavaScript & CSS files from src/_components
 import components from "bridgetownComponents/**/*.{js,jsx,js.rb,css}"
-
-console.info("Bridgetown is loaded!")
 
 window.Stimulus = Application.start()
 
@@ -30,5 +28,7 @@ Object.entries(controllers).forEach(([filename, controller]) => {
     Stimulus.register(identifier, controller.default)
   }
 })
+
+Stimulus.register('toggle', Toggle)
 
 inject();

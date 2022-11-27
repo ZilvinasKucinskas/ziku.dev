@@ -25,6 +25,6 @@
     "@hotwired/stimulus": "^3.1.0",
     "@hotwired/turbo": "^7.1.0",
     "@vercel/analytics": "^0.1.5",
-    "flowbite": "^1.5.4"
+    "tailwindcss-stimulus-components": "^3.0.4"
   }
 }
