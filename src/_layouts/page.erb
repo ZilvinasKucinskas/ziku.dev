@@ -1,7 +1,8 @@
 ---
 layout: default
 ---
-
-<h1><%= resource.data.title %></h1>
-
-<%= yield %>
+<%= render Ui::Container.new do %>
+  <%= render Ui::Heading.new.with_content(resource.data.title) %>
+  <%= render Ui::Divider.new(variant: :colorful) %>
+  <%= content %>
+<% end %>
