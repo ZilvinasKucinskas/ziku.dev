@@ -7,6 +7,8 @@
 <% resource_title = strip_html(strip_newlines(title)) %>
 <title><%= resource.respond_to?(:layout) && resource.layout.label.to_s == "home" ? title : title_with_tagline %></title>
 <meta name="description" content="<%= description %>">
+
+<link rel="preload" href="<%= asset_path "fonts/Mona-Sans.woff2" %>" as="font" type="font/woff2" crossorigin>
 <%= render "scripts/dark_mode" %>
 
 <link rel="stylesheet" href="<%= webpack_path :css %>" data-turbo-track="reload" />
