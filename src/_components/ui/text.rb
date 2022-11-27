@@ -1,13 +1,12 @@
 class Ui::Text < Ui::BoxComponent
   private
 
-
   def classes
     [
       opts.fetch(:align, "text-left"),
       ("truncate" if opts[:truncate]),
       ("line-clamp-2" if opts[:truncate]),
-      ("text-sm" if opts[:small]),
+      ("text-sm" if opts[:small])
     ]
   end
 

@@ -7,7 +7,7 @@ class Ui::Divider < Ui::BoxComponent
 
   def classes
     [
-      variant == :colorful ? DIVIDER_COLORFUL_CLASSES : DEFAULT_DIVIDER_CLASSES,
+      (variant == :colorful) ? DIVIDER_COLORFUL_CLASSES : DEFAULT_DIVIDER_CLASSES,
       opts.fetch(:spacing, DEFAULT_DIVIDER_MY)
     ]
   end
