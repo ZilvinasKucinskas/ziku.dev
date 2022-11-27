@@ -1,7 +1,7 @@
 ---
-layout: post
+layout: markdown
 title:  "Your First Post on Bridgetown"
-date:   2022-09-18 20:49:53 +0300
+last_modified_at: "2022-09-18 20:49:53 +0300"
 categories: updates
 ---
 
