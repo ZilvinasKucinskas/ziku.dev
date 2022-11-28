@@ -3,6 +3,7 @@ class Ui::BoxComponent < ApplicationComponent
   DEFAULT_OPTIONS = [:classes, :as, :variant].freeze
   DEFAULT_PX = "px-4".freeze
   DEFAULT_PY = "py-4".freeze
+  DEFAULT_SPACE_Y = "space-y-4".freeze
   DEFAULT_FLEX_COL = %w[flex flex-col].freeze
   DEFAULT_PROSE_CONTAINER = %w[w-full mx-auto max-w-prose].freeze
 

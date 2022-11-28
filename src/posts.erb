@@ -1,0 +1,8 @@
+---
+layout: page
+title: Posts
+---
+
+<%= render Ui::List.new do %>
+  <%= render(PostComponent.with_collection(collections.posts.resources)) %>
+<% end %>
