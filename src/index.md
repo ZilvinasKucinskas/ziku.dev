@@ -14,6 +14,8 @@ Full Stack Ruby on Rails Software Engineer and entrepreneur. This is my personal
 
 ## Recent Posts
 
+<%= render "recent_posts", amount: 4 %>
+
 [View All Posts <span aria-hidden="true">&rarr;</span>](/posts/)
 
 ## Resources
