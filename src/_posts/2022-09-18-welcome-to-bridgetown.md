@@ -15,6 +15,24 @@ Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit number
 
 Bridgetown also offers powerful support for code snippets:
 
+```js
+/**
+ * Does a thing
+ */
+function helloWorld(param1, param2) {
+  var something = 0;
+
+  // Do something
+  if (2.0 % 2 == something) {
+    console.log('Hello, world!');
+  } else {
+    return null;
+  }
+
+  // @TODO comment
+}
+```
+
 ```ruby
 def print_hi(name)
   puts "Hi, #{name}"
