@@ -1,7 +1,7 @@
 ---
-layout: post
+layout: markdown
 title:  "Your First Post on Bridgetown"
-date:   2022-09-18 20:49:53 +0300
+last_modified_at: "2022-09-18 20:49:53 +0300"
 categories: updates
 ---
 
@@ -15,6 +15,24 @@ Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit number
 
 Bridgetown also offers powerful support for code snippets:
 
+```js
+/**
+ * Does a thing
+ */
+function helloWorld(param1, param2) {
+  var something = 0;
+
+  // Do something
+  if (2.0 % 2 == something) {
+    console.log('Hello, world!');
+  } else {
+    return null;
+  }
+
+  // @TODO comment
+}
+```
+
 ```ruby
 def print_hi(name)
   puts "Hi, #{name}"
@@ -22,5 +40,34 @@ end
 print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
 ```
+
+## Code
+
+Inline `code`
+
+Indented code
+
+    // Some comments
+    line 1 of code
+    line 2 of code
+    line 3 of code
+
+
+Block code "fences"
+
+```
+Sample text here...
+```
+
+Syntax highlighting
+
+``` js
+var foo = function (bar) {
+  return bar++;
+};
+
+console.log(foo(5));
+```
+
 
 Check out the [Bridgetown docs](https://bridgetownrb.com/docs/) for more info on how to get the most out of Bridgetown. File all bugs/feature requests at [Bridgetown’s GitHub repo](https://github.com/bridgetownrb/bridgetown). If you have questions, you can ask them on [Bridgetown Discussions on GitHub](https://github.com/bridgetownrb/bridgetown/discussions).
