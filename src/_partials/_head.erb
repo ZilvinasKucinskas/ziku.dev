@@ -17,6 +17,8 @@
 
 <%= render "shared/favicons" %>
 
+<%# Canonical url %>
+<link href="<%= url %>" rel="canonical">
 
 <%# Webmentions %>
 <link rel="webmention" href="https://webmention.io/<%= site.metadata.domain %>/webmention" />
