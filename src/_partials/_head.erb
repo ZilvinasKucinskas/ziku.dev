@@ -1,6 +1,8 @@
 <% title = resource.data.title || site.metadata.title %>
 <% title_with_tagline = title + site.metadata.tagline %>
 <% description = resource.data.description || site.metadata.description %>
+<% url = absolute_url resource.relative_url %>
+<% post_layout = resource.respond_to?(:layout) && resource.layout.label == "post" %>
 
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -14,3 +16,20 @@
 <%= live_reload_dev_js %>
 
 <%= render "shared/favicons" %>
+
+<%# Verification %>
+<link rel="me" href="https://github.com/ZilvinasKucinskas">
+<link rel="me" href="https://twitter.com/zilkucinskas">
+<link rel="me" href="https://www.linkedin.com/in/zilvinaskucinskas/">
+<link rel="me" href="https://ruby.social/@zilkucinskas">
+
+<%# JSON-LD %>
+<% if post_layout %>
+  <%= render "scripts/json_ld",
+      title: title,
+      description: description,
+      url: url,
+      date: (resource.data.date || DateTime.current),
+      last_modified_at: (resource.data.last_modified_at || DateTime.current) %>
+  <meta property="post:published_time" content="<%= resource.data.date || DateTime.current %>" />
+<% end %>
