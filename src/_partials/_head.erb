@@ -3,6 +3,8 @@
 <% description = resource.data.description || site.metadata.description %>
 <% url = absolute_url resource.relative_url %>
 <% post_layout = resource.respond_to?(:layout) && resource.layout.label == "post" %>
+<% type = post_layout ? "article" : "website" %>
+<% cover = resource.respond_to?(:image) ? resource.image : absolute_url("assets/images/default_social_sharing.png") %>
 
 <%# General settings %>
 <meta charset="utf-8" />
@@ -27,6 +29,29 @@
 
 <%# Canonical url %>
 <link href="<%= "#{site.metadata.base_url}#{resource.relative_url}" %>" rel="canonical">
+
+<%# Open Graph %>
+<meta property="og:title" content="<%= title %>">
+<meta property="og:description" content="<%= description %>">
+<meta property="og:type" content="<%= type %>">
+<meta property="og:image" content="<%= cover %>"/>
+<meta property="og:image:alt" content="<%= resource.data.image_alt || description %>">
+<meta property="og:url" content="<%= url %>">
+<meta property="og:site_name" content="<%= site.metadata.title %>">
+
+<%# Twitter %>
+<meta name="twitter:title" content="<%= title %>">
+<meta name="twitter:card" content="<%= site.metadata.twitter.card %>">
+<meta name="twitter:site" content="<%= site.metadata.twitter.username %>">
+<meta name="twitter:description" content="<%= description %>">
+<meta name="twitter:image" content="<%= cover %>">
+<meta name="twitter:creator" content="<%= site.metadata.twitter.username %>">
+<meta name="twitter:dnt" content="on">
+
+<%# Other Misc tags %>
+<meta name="author" content="<%= site.metadata.author.name %>">
+<meta content="Bridgetown" name="generator">
+<meta name="referrer" content="no-referrer-when-downgrade">
 
 <%# Webmentions %>
 <link rel="webmention" href="https://webmention.io/<%= site.metadata.domain %>/webmention" />

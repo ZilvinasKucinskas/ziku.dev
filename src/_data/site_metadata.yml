@@ -15,3 +15,8 @@ description: >-
 author:
   name: Zilvinas Kucinskas
   url: https://www.ziku.dev/
+
+twitter:
+  username: "@zilkucinskas"
+  card: "summary_large_image"
+  url: https://twitter.com/zilkucinskas/
