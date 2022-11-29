@@ -27,7 +27,6 @@ layout: default
     <p class="italic">Thanks for reading! It would mean a lot if you shared this post with others!</p>
     <ul>
       <li><%= render Ui::Link.new(href: twitter_share_url(resource), classes: "after:content-['_↗']").with_content("Share on Twitter") %></li>
-      <li><%= render Ui::Link.new(href: twitter_discuss_url(resource), classes: "after:content-['_↗']").with_content("Discuss on Twitter") %></li>
     </ul>
   <% end %>
 
