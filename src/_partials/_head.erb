@@ -4,13 +4,20 @@
 <% url = absolute_url resource.relative_url %>
 <% post_layout = resource.respond_to?(:layout) && resource.layout.label == "post" %>
 
+<%# General settings %>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<% resource_title = strip_html(strip_newlines(title)) %>
 <title><%= resource.respond_to?(:layout) && resource.layout.label.to_s == "home" ? title : title_with_tagline %></title>
 <meta name="description" content="<%= description %>">
+
+<%# Preloads for site performance %>
+<link rel="preload" href="<%= webpack_path :css %>" as="style">
+<link rel="preload" href="<%= webpack_path :js %>" as="script">
+
+<%# Dark mode preferences %>
 <%= render "scripts/dark_mode" %>
 
+<%# App CSS and App JS %>
 <link rel="stylesheet" href="<%= webpack_path :css %>" data-turbo-track="reload" />
 <script src="<%= webpack_path :js %>" defer data-turbo-track="reload"></script>
 <%= live_reload_dev_js %>
