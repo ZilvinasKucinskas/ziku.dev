@@ -2,6 +2,7 @@
 layout: default
 ---
 
-<%= render Ui::Container.new do %>
+<%= render Ui::Container.new(as: :section) do %>
+  <%= render Ui::Image.new(src: "/assets/images/avatar_250x250.png", width: 80, height: 80, alt: site.metadata.author.name, classes: "h-20 w-20 rounded-full shadow-md mb-2", loading: "eager" ) %>
   <%= render Ui::ContentBlock.new.with_content(content) %>
 <% end %>
