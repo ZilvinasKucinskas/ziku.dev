@@ -4,6 +4,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.metadata.myvariable }}.
 
+domain: ziku.dev
+
 title: Zilvinas Kucinskas - Ruby on Rails Software Engineer
 tagline: " - ziku.dev"
 description: >-
