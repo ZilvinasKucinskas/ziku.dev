@@ -5,8 +5,8 @@ tags:
   - ruby
   - bridgetown
 categories: tech
-date: "2022-09-18 20:49:53 +0300"
-last_modified_at: "2022-09-18 20:49:53 +0300"
+date: "2022-11-29 18:43:49.779226 UTC"
+last_modified_at: "2022-11-29 18:43:49.779226 UTC"
 ---
 
 ## Technical Stack

@@ -30,6 +30,11 @@
 <%# Canonical url %>
 <link href="<%= "#{site.metadata.base_url}#{resource.relative_url}" %>" rel="canonical">
 
+<%# Noindex %>
+<% if resource.data.no_index %>
+  <meta name="robots" content="noindex"/>
+<% end %>
+
 <%# Open Graph %>
 <meta property="og:title" content="<%= title %>">
 <meta property="og:description" content="<%= description %>">
