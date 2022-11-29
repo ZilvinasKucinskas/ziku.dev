@@ -5,34 +5,26 @@
         <%= render Shared::Logo.new %>
       </div>
 
-      <div class="grid grid-cols-2 sm:grid-cols-3 gap-8 sm:gap-6">
+      <div class="grid grid-cols-2 sm:grid-cols-2 gap-8 sm:gap-6">
         <div>
-          <h2 class="mb-6 text-sm font-semibold uppercase text-gray-900 dark:text-white">Resources</h2>
-          <ul class="text-gray-600 dark:text-gray-400">
-            <li class="mb-4"><a href="#">Resource 1</a></li>
-            <li><a href="#">Resource 2</a></li>
+          <h2 class="mb-6 text-sm font-semibold uppercase text-gray-900 dark:text-white">Professional</h2>
+          <ul class="space-y-4 text-gray-600 dark:text-gray-400">
+            <li><%= render Ui::Link.new(href: "/about/").with_content("About") %></li>
+            <li><%= render Ui::Link.new(href: "/projects/").with_content("Software Contributions") %></li>
+            <li><%= render Ui::Link.new(href: "/speaking/").with_content("Speaking") %></li>
           </ul>
         </div>
 
         <div>
-          <h2 class="mb-6 text-sm font-semibold uppercase text-gray-900 dark:text-white">Follow me</h2>
-          <ul class="text-gray-600 dark:text-gray-400">
-            <li class="mb-4"><a href="#">Github</a></li>
-            <li><a href="#">LinkedIn</a></li>
-          </ul>
-        </div>
-
-        <div>
-          <h2 class="mb-6 text-sm font-semibold uppercase text-gray-900 dark:text-white">Resources</h2>
-          <ul class="text-gray-600 dark:text-gray-400">
-            <li class="mb-4"><a href="#">Resource 1</a></li>
-            <li><a href="#">Terms & Conditions</a></li>
+          <h2 class="mb-6 text-sm font-semibold uppercase text-gray-900 dark:text-white">Contact</h2>
+          <ul class="space-y-4 text-gray-600 dark:text-gray-400">
+            <li><%= render Ui::Link.new(href: "https://github.com/ZilvinasKucinskas", external: true).with_content("Github") %></li>
+            <li><%= render Ui::Link.new(href: "https://www.linkedin.com/in/zilvinaskucinskas/", external: true).with_content("LinkedIn") %></li>
           </ul>
         </div>
       </div>
     </div>
 
-    <%# <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" /> %>
     <%= render Ui::Divider.new %>
 
     <p class="text-xs text-center text-gray-500 dark:text-gray-400">
