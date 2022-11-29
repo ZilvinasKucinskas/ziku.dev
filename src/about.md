@@ -4,7 +4,7 @@ title: About
 last_modified_at: 2022-11-27 18:16:21.107098 UTC
 ---
 
-I'm a software business executive. I've co-founded multiple companies and participated in top level management at multiple startups. I love helping people solve their problems through the means of building systems, processes and automated solutions.
+I'm a <b>software business executive</b>. I've co-founded multiple companies and participated in top level management at multiple startups. I love helping people solve their problems through the means of building systems, processes and automated solutions.
 
 More info coming soon.
 
