@@ -5,6 +5,7 @@
 # in the templates via {{ site.metadata.myvariable }}.
 
 domain: ziku.dev
+url: https://www.ziku.dev/
 
 title: Zilvinas Kucinskas - Ruby on Rails Software Engineer
 tagline: " - ziku.dev"
