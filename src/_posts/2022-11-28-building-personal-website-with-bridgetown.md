@@ -30,3 +30,7 @@ The site is hosted on [Vercel](https://vercel.com/) and all pushes to the main b
 ## Tracking
 
 I am using [Vercel Analytics](https://vercel.com/analytics). It is privacy-friendly, real-time traffic insights solution. This helps be compliant with GDPR, therefore there is no need to display a cookie banner.
+
+## Special Thanks
+
+Thanks to [Andrew Mason](https://github.com/andrewmcodes) for inspiration creating this personal website and awesome code examples of using [ViewComponent](https://viewcomponent.org/).
