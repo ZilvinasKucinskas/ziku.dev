@@ -19,8 +19,14 @@
 
 url: "" # the base hostname & protocol for your site, e.g. https://example.com
 
-permalink: pretty
+permalink: simple
 template_engine: erb
+
+collections:
+  posts:
+    permalink: "/posts/:slug/"
+    sort_by: date
+    sort_direction: descending
 
 # Other options you might want to investigate:
 #
