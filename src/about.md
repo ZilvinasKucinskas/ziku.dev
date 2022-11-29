@@ -25,3 +25,7 @@ More info coming soon.
 * Terraform
 * Docker
 * Sidekiq
+
+## Contact
+
+Want to get in touch? You can email me at `zil.kucinskas[at]gmail.com` or [shoot me a DM on Twitter](https://twitter.com/zilkucinskas/).
