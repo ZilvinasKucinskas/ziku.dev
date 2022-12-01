@@ -8,7 +8,7 @@ date: "2022-11-24 11:38:18.421734 UTC"
 last_modified_at: "2022-11-30 16:26:19.57047 UTC"
 ---
 
-Here is my uses page, first popularized by [Wes Bos](https://wesbos.com/uses).
+Here is my uses page, first popularized by [Wes Bos](https://wesbos.com/uses/).
 
 I spend a lot of time researching tech choices, so everything on this list is something I would recommend for a colleague.
 
