@@ -31,6 +31,8 @@ Some sample reported issues:
   - [#2989](https://github.com/puma/puma/issues/2989) - undocumented breaking change after major upgrade.
 - [purgecss](https://github.com/FullHuman/purgecss) - removes unused css.
   - [#643](https://github.com/FullHuman/purgecss/issues/643) - heads up for changelog updates to be picked by dependabot.
+- [sidekiq-throttled](https://github.com/ixti/sidekiq-throttled) - concurrency and threshold throttling for Sidekiq.
+  - [#16](https://github.com/ixti/sidekiq-throttled/issues/16) - Sidekiq 7 support.
 - [rubocop-rails](https://github.com/rubocop/rubocop-rails) - A RuboCop extension focused on enforcing Rails best practices and coding conventions.
   - [#215](https://github.com/rubocop/rubocop-rails/issues/215) - False positive offense with Rails/UniqueValidationWithoutIndex using expression indexes.
 - [doorkeeper](https://github.com/doorkeeper-gem/doorkeeper) - OAuth 2 provider for Ruby on Rails / Grape.
