@@ -41,5 +41,5 @@ end
 group :bridgetown_plugins do
   gem "bridgetown-svg-inliner"
   gem "bridgetown-view-component"
-  gem "view_component", "=2.74.1" # https://github.com/bridgetownrb/bridgetown-view-component/issues/3
+  gem "view_component", "2.80.0" # https://github.com/bridgetownrb/bridgetown-view-component/issues/3
 end
