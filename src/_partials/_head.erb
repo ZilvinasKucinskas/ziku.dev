@@ -4,7 +4,7 @@
 <% url = absolute_url resource.relative_url %>
 <% post_layout = resource.respond_to?(:layout) && resource.layout.label == "post" %>
 <% type = post_layout ? "article" : "website" %>
-<% cover = resource.respond_to?(:image) ? resource.image : absolute_url("assets/images/default_social_sharing.png") %>
+<% cover = resource.data.respond_to?(:image) ? absolute_url(resource.data.image) : absolute_url("assets/images/default_social_sharing.png") %>
 
 <%# General settings %>
 <meta charset="utf-8" />
