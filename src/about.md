@@ -1,30 +1,24 @@
 ---
 layout: markdown
-title: About
-last_modified_at: 2022-11-27 18:16:21.107098 UTC
+title: About Zilvinas Kucinskas
+last_modified_at: 2023-01-03 13:32:06.272522 UTC
 ---
 
-I'm a <b>software business executive</b>. I've co-founded multiple companies and participated in top level management at multiple startups. I love helping people solve their problems through the means of building systems, processes and automated solutions.
+Hi! 👋 I'm Zilvinas Kucinskas, an independent developer who's specialised working with Ruby on Rails, Sidekiq, Hotwire (Stimulus + Turbo), TailwindCSS, PostgreSQL, Redis, ElasticSearch, Docker, Terraform and AWS.
 
-More info coming soon.
+## 👨‍💻 Here's what I can help you with:
 
-🦹‍♂️  Indie Hacker<br>
-🧠  A national IT olympiad winner<br>
-🦄  Seed to unicorn veteran<br>
+* Building SaaS applications, especially API as a service.
+* Scraping data at scale.
+* Performance optimizations.
+* Infrastructure as a code on AWS.
+* SEO (Search Engine Optimization).
+* System design.
 
-## Technical Stack
+## 💻 Here's a few of the projects I'm working on:
 
-* Ruby
-* Ruby on Rails
-* Hotwire (Turbo + Stimulus)
-* TailwindCSS
-* AWS
-* PostgreSQL
-* Redis
-* ElasticSearch
-* Terraform
-* Docker
-* Sidekiq
+* [ExportData](https://www.exportdata.io/) - Twitter data export tool.
+* [ziku.dev](https://www.ziku.dev/) - My blog on Ruby on Rails.
 
 ## Contact
 
