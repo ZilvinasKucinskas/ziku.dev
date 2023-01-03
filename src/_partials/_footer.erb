@@ -28,7 +28,7 @@
     <%= render Ui::Divider.new %>
 
     <p class="text-xs text-center text-gray-500 dark:text-gray-400">
-      &copy; 2022 Zilvinas Kucinskas. All rights reserved. Except as otherwise noted, the content
+      &copy; <%= Time.current.year %> Zilvinas Kucinskas. All rights reserved. Except as otherwise noted, the content
       of this page is licensed under the
       <%= render Ui::Link.new(href: "https://creativecommons.org/licenses/by/4.0/", external: true).with_content("Creative Commons Attribution 4.0 License") %>
       , and code samples are licensed under the
