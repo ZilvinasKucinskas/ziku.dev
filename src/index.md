@@ -8,7 +8,7 @@ last_modified_at: "2022-11-22 17:54:43.643715 UTC"
 
 # Zilvinas Kucinskas
 
-Full Stack Ruby on Rails Software Engineer and entrepreneur. This is my personal website where I document my journey as a full stack developer and publish tutorials for myself and others on things I've learned along the way.
+Hi! 👋 I'm Zilvinas Kucinskas, an independent developer who's specialised working with Ruby on Rails, Sidekiq, Hotwire (Stimulus + Turbo), TailwindCSS, PostgreSQL, Redis, ElasticSearch, Docker, Terraform and AWS.
 
 [Learn More About Me <span aria-hidden="true">&rarr;</span>](/about/)
 
