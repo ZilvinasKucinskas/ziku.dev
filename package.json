@@ -13,7 +13,7 @@
     "@tailwindcss/typography": "^0.5.9",
     "autoprefixer": "^10.4.13",
     "esbuild": "^0.16.12",
-    "glob": "^8.0.1",
+    "glob": "^8.1.0",
     "postcss": "^8.4.21",
     "postcss-flexbugs-fixes": "^5.0.2",
     "postcss-import": "^15.1.0",
