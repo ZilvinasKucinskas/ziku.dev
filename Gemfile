@@ -19,7 +19,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 # If you need to upgrade/switch Bridgetown versions, change the line below
 # and then run `bundle update bridgetown`
-gem "bridgetown", "~> 1.1.0"
+gem "bridgetown", "~> 1.2.0"
 
 # Uncomment to add file-based dynamic routing to your project:
 # gem "bridgetown-routes", "~> 1.1.0", group: :bridgetown_plugins
@@ -32,14 +32,12 @@ gem "bridgetown", "~> 1.1.0"
 # (you can optionally limit this to the "development" group)
 gem "puma", "~> 6.0"
 
+gem "bridgetown-svg-inliner"
+gem "bridgetown-view-component"
+gem "view_component"
+
 group :development do
   gem "pry"
   gem "solargraph"
   gem "standard"
-end
-
-group :bridgetown_plugins do
-  gem "bridgetown-svg-inliner"
-  gem "bridgetown-view-component"
-  gem "view_component", "=2.74.1" # https://github.com/bridgetownrb/bridgetown-view-component/issues/3
 end
