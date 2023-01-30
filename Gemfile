@@ -34,7 +34,7 @@ gem "puma", "~> 6.0"
 
 gem "bridgetown-svg-inliner"
 gem "bridgetown-view-component"
-gem "view_component", "=2.74.1" # https://github.com/bridgetownrb/bridgetown-view-component/issues/3
+gem "view_component"
 
 group :development do
   gem "pry"

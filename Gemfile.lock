@@ -191,8 +191,8 @@ GEM
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
     unicode-display_width (2.4.2)
-    view_component (2.74.1)
-      activesupport (>= 5.0.0, < 8.0)
+    view_component (2.82.0)
+      activesupport (>= 5.2.0, < 8.0)
       concurrent-ruby (~> 1.0)
       method_source (~> 1.0)
     webrick (1.7.0)
@@ -212,7 +212,7 @@ DEPENDENCIES
   puma (~> 6.0)
   solargraph
   standard
-  view_component (= 2.74.1)
+  view_component
 
 BUNDLED WITH
    2.3.21
