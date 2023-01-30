@@ -32,14 +32,12 @@ gem "bridgetown", "~> 1.2.0"
 # (you can optionally limit this to the "development" group)
 gem "puma", "~> 6.0"
 
+gem "bridgetown-svg-inliner"
+gem "bridgetown-view-component"
+gem "view_component", "=2.74.1" # https://github.com/bridgetownrb/bridgetown-view-component/issues/3
+
 group :development do
   gem "pry"
   gem "solargraph"
   gem "standard"
-end
-
-group :bridgetown_plugins do
-  gem "bridgetown-svg-inliner"
-  gem "bridgetown-view-component"
-  gem "view_component", "=2.74.1" # https://github.com/bridgetownrb/bridgetown-view-component/issues/3
 end
