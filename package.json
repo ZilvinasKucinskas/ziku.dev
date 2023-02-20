@@ -24,7 +24,7 @@
   "dependencies": {
     "@hotwired/stimulus": "^3.2.1",
     "@hotwired/turbo": "^7.2.4",
-    "@vercel/analytics": "^0.1.6",
+    "@vercel/analytics": "^0.1.10",
     "tailwindcss-stimulus-components": "^3.0.4"
   }
 }
